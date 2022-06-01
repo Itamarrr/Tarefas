@@ -1,10 +1,13 @@
-﻿using System;
+﻿using Empresa.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Empresa.Repository.Interfaces
 {
-    interface IFuncionarioRepository
+    public interface IFuncionarioRepository: IBaseRepository<FuncionarioEntities>
     {
+        FuncionarioEntities ObterPorCpf(string cpf);
+        FuncionarioEntities ObterPorMatricula(string matricula);
     }
 }

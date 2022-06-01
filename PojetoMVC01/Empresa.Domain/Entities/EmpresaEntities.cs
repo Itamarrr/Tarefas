@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Empresa.Domain.Entities
 {
-    public class Empresa
+    public class EmpresaEntities
     {
         #region Propriedades
         public Guid IdEmpresa { get; set; }
@@ -13,7 +13,7 @@ namespace Empresa.Domain.Entities
         #endregion
         #region Relacionamentos Empresa Funcionario 
         //associação uma empresa tem varios funcionarios
-        List<Funcionario> Funcionarios { get; set; }
+        List<FuncionarioEntities> Funcionarios { get; set; }
         #endregion
     }
 }
