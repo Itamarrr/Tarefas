@@ -1,0 +1,13 @@
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\bin\Debug\netcoreapp3.1\Empresa.Repository.deps.json
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\bin\Debug\netcoreapp3.1\Empresa.Repository.dll
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\bin\Debug\netcoreapp3.1\Empresa.Repository.pdb
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\bin\Debug\netcoreapp3.1\Empresa.Domain.dll
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\bin\Debug\netcoreapp3.1\Empresa.Domain.pdb
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\obj\Debug\netcoreapp3.1\Empresa.Repository.csproj.AssemblyReference.cache
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\obj\Debug\netcoreapp3.1\Empresa.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\obj\Debug\netcoreapp3.1\Empresa.Repository.AssemblyInfoInputs.cache
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\obj\Debug\netcoreapp3.1\Empresa.Repository.AssemblyInfo.cs
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\obj\Debug\netcoreapp3.1\Empresa.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\obj\Debug\netcoreapp3.1\Empresa.Repository.csproj.CopyComplete
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\obj\Debug\netcoreapp3.1\Empresa.Repository.dll
+C:\Users\Hitss\Documents\Projetos\Tarefas\PojetoMVC01\Empresa.Repository\obj\Debug\netcoreapp3.1\Empresa.Repository.pdb

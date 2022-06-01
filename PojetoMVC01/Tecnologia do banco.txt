@@ -1,0 +1,2 @@
+ystem.Data.SqlClient -> instalar pelo nuguet
+Dapper -> instalar pelo nuguet
