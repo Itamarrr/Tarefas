@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Empresa.Domain.Entities
+namespace Empresa.Repository.Interfaces
 {
-    public class Empresa
+    interface IEmpresaRepository
     {
     }
 }
