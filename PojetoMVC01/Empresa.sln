@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{D61F2577-4265-4813-9634-BDADF31412EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Layer", "Domain Layer", "{EDD245A9-445B-4892-9D39-6379E101D66D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository Layer", "Repository Layer", "{D127D985-D323-4675-B3BB-D8E46D555962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarefa.Presentation", "Tarefa.Presentation\Tarefa.Presentation.csproj", "{FE84EE7E-AE93-475B-80A1-E554A6B69757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE84EE7E-AE93-475B-80A1-E554A6B69757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE84EE7E-AE93-475B-80A1-E554A6B69757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE84EE7E-AE93-475B-80A1-E554A6B69757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE84EE7E-AE93-475B-80A1-E554A6B69757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE84EE7E-AE93-475B-80A1-E554A6B69757} = {EDD245A9-445B-4892-9D39-6379E101D66D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1B1E619-D0DB-4E77-B5FE-34E874229B29}
+	EndGlobalSection
+EndGlobal
