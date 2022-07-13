@@ -13,6 +13,12 @@ namespace Empresa.Repository.Repositories
     {
         //Atributo
         private string connectionstring;
+
+        public EmpresaRepository(string connectionstring)
+        {
+            this.connectionstring = connectionstring; 
+        }
+
         public void Inserir(EmpresaEntities obj)
         {
             var query = @"INSERT INTO EMPRESA(IDEMRESA, RAZAOSOCIAL, CNPJ)

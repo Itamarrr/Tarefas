@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XAFSFj1Bm8pBk09jKLrtAF7YmJjaybTfAo7eiL/LalsuGQ/tJfJXuVnBKWagnzt6oCS12e2ZqhWGIS57yRFWAg==",
+  "dgSpecHash": "bobxIqlna8gqvc+1UKKAfp48ZYcvxddJqZ63kADSxNCiEqp+YPZywKfMUFRzy2MdGDxOmweaj8GHOJ4n+PhCtw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hitss\\Documents\\Projetos\\Tarefas\\PojetoMVC01\\Empresa.Presentation\\Empresa.Presentation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Hitss\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
   "logs": []
 }

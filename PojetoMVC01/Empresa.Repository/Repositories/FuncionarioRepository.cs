@@ -1,31 +1,56 @@
-﻿using Empresa.Domain.Entities;
+﻿using Dapper;
+using Empresa.Domain.Entities;
 using Empresa.Repository.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Text;
 
 namespace Empresa.Repository.Repositories
 {
     public class FuncionarioRepository : IFuncionarioRepository
     {
+        
+        private string connectionstring;
+        public void Inserir(FuncionarioEntities obj)
+        {
+            var query = @"INSERT INTO FUNCIONARIO (IDFUNCIONARIO, NOME, CPF, MATRICULA, DATAADMISSAO, IDEMPRESA)";
+
+            using (var connection= new SqlConnection(connectionstring))
+            {
+                connection.Execute(query, obj);
+            }
+        }
+
+
         public void Alterar(FuncionarioEntities obj)
         {
-            throw new NotImplementedException();
+            var query = @"UPDATE FUNCIONARIO SETE MATRICULA = @MATRICULA 
+                          WHERE IDFUNCIONARIO = IDFUNCIONARIO AND IDEMPRESA = IDEMPRESA";
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                connection.Execute(query, obj);
+            }
         }
 
         public void Exluir(FuncionarioEntities obj)
         {
-            throw new NotImplementedException();
+            var query = @"DELETE * FROM  FUNCIONARIO WHERE IDFUNCIONARIO = @IDFUNCIONARIO AND IDEMPRESA = @IDEMPRESA";
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                connection.Execute(query, obj);
+            }
         }
 
-        public void Inserir(FuncionarioEntities obj)
-        {
-            throw new NotImplementedException();
-        }
-
+      
         public FuncionarioEntities ObterPorCpf(string cpf)
         {
-            throw new NotImplementedException();
+            var @"SELECT * FROM FUNCIONARIO WHERE CPF = @cpf";
+
+            using (var connection = new SqlConnection(connectionstring))
+            {
+               return connection.Query(connectionstring(new ))
+            }
         }
 
         public FuncionarioEntities ObterPorId(Guid id)
